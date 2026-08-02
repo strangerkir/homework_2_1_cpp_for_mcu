@@ -3,7 +3,6 @@
 
 void TimeTracker::start() {
   this->started_at = millis();
-  Serial.println("Started at: " + String(this->started_at));
 }
 
 unsigned long TimeTracker::result() {
