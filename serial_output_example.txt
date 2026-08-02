@@ -1,0 +1,16 @@
+
+Approximate average loop time is 0.001ms
+Started at: 2055588
+Approximate average loop time is 0.012ms
+Started at: 2055600
+Approximate average loop time is 0.002ms
+Started at: 2055602
+Approximate average loop time is 0.002ms
+Started at: 2055614
+Approximate average loop time is 0.002ms
+Started at: 2055616
+Approximate average loop time is 0.001ms
+Started at: 2055617
+Approximate average loop time is 0.012ms
+Started at: 2055629
+Approximate average loop time is 0.002ms
