@@ -1,18 +1,18 @@
-#include <Arduino.h>
-#include "config.h"
 #include "led.h"
+#include "config.h"
+#include <Arduino.h>
 
 void Led::init() {
-    pinMode(Config::led_pin, OUTPUT);
-    setState(State::OFF);
-    Serial.println("LED initialized");
+  pinMode(Config::led_pin, OUTPUT);
+  setState(State::OFF);
+  Serial.println("LED initialized");
 };
 
-
 void Led::setState(State state) {
-    digitalWrite(Config::led_pin, state == State::ON ? HIGH : LOW);
+  digitalWrite(Config::led_pin, state == State::ON ? HIGH : LOW);
 }
 
 Led::State Led::getState() {
-    return digitalRead(Config::led_pin) == HIGH ? Led::State::ON : Led::State::OFF;
+  return digitalRead(Config::led_pin) == HIGH ? Led::State::ON
+                                              : Led::State::OFF;
 }
