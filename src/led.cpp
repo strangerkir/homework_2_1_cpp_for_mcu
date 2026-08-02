@@ -5,7 +5,7 @@
 void Led::init() {
     pinMode(Config::led_pin, OUTPUT);
     setState(State::OFF);
-    Serial.println("LED initialized");
+    Serial.println("LED initialized\n");
 };
 
 
