@@ -1,3 +1,6 @@
+#ifndef LED_H
+#define LED_H
+
 class Led {
 public:
   enum class State { OFF = 0, ON = 1 };
@@ -6,3 +9,5 @@ public:
   void setState(State state);
   State getState();
 };
+
+#endif
