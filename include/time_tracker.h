@@ -3,8 +3,8 @@
 
 class TimeTracker {
 public:
-  void start();
-  unsigned long result();
+  void start(void);
+  unsigned long result(void);
 
 private:
   unsigned long started_at;
